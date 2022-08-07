@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Link from 'next/link';
 
 const Home: NextPage = () => {
   return (
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
 
       <main className="text-red-500">
         <h1>Hello This is Ngabonziza Profile</h1>
+        <Link href="/blog"> Browse the blogs</Link>
       </main>
 
       <footer className="">
